@@ -2,7 +2,7 @@
 
 Son lineas de texto que se envian entre el cliente (Por ejemplo el navegador WEB o una herramienta como CURL) y el servidor web cuando hacen una solicitud o responden a ella. 
 
-![header1](cabecera.png)
+![header1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Ciber%20Security/imagenes/cabecera.png)
 
 ## Header de solicitud (cliente -> servidor)
 Se usa para indicar que quiere el cliente y como puede recibir la respuesta 
