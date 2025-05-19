@@ -6,7 +6,7 @@ Pensemos que un archivo robots.txt es como un cartel de "Código de conducta" co
 
 Los rastreadores web "rastrean" las paginas web e indexan el contenido para que aparezca en los resultados de los motores de búsqueda cuando un usuario hace una consulta, el robots.txt tiene instrucciones para indicarle al motor de búsqueda que sitios no indexar y evitar que salgan como sugerencias para el usuario. 
 
-![robotsWA](robots_WA.png)
+![robotsWA](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Ciber%20Security/imagenes/robots_WA.png)
 
 Aunque un archivo robots.txt proporciona instrucciones para los bots, no puede hacer que se cumplan las instrucciones. Un bot beneficioso, como un rastreador web o un bot de información, intentará visitar primero el archivo robots.txt antes de ver cualquier otra página de un dominio, y cumplirá con las instrucciones. Un bot perjudicial ignorará el archivo robots.txt o lo procesará para encontrar las páginas web que están prohibidas.
 
