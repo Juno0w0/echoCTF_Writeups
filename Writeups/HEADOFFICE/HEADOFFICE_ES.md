@@ -1,4 +1,4 @@
-![head1](head1.png)
+![head1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/HEADOFFICE/head1.png)
 ## INTRODUCCIÓN 
 
 La maquina HEADOFFICE es una maquina de echoCTF que nos da la siguiente información como pista "HEAD over to the HEAD Office and tell them to give you the flag..." esta maquina oculta un servicio y una bandera en su pagina web A través de la exploración de cabeceras
@@ -20,7 +20,7 @@ PORT STATE SERVICE REASON
 
 El puerto 1337 se encuentra filtrado, lo que indica que el servidor no estaba respondiendo a un escaneo común, al intentar una conexión HTTP a la ip "10.0.41.4" con el puerto 1337 nos da la siguiente pagina web
 
-![head2](head2.png)
+![head2](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/HEADOFFICE/head2.png)
 
 la cual nos da una pista sobre usar las [[HTTP HEADERS]], para visualizar las cabeceras de una pagina web lo podemos hacer con el siguiente comando
 
@@ -30,8 +30,7 @@ curl -I 10.0.41.4:1337
 
 Lo cual nos da la siguiente información, donde encontraremos nuestra bandera
 
-``` bash
-
+```bash  
 	HTTP/1.1 200 OK
 	Server: nginx/1.18.0
 	Date: Mon, 21 Apr 2025 05:51:08 GMT

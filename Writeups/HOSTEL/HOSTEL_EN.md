@@ -1,4 +1,4 @@
-![](host1.png)
+![img1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/HOSTEL/host1.png)
 ## **Introduction**
 
 The **HOSTEL** machine from **EchoCTF** presents a web challenge where a hidden service and a flag can be retrieved by modifying the **Host Header** in an HTTP request. The hint provided by the machine suggests that the key lies in a host named `"el"`.
@@ -23,7 +23,7 @@ PORT     STATE SERVICE
 
 Port **1337** is open. When attempting an HTTP connection to IP `10.0.41.5` on that port, we are presented with the following page:
 
-![hostel2](host2.png)
+![hostel2](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/HOSTEL/host2.png)
 
 Based on the hint provided by the machine and the page, it is inferred that the flag is hidden behind a **virtual host** named `"el"`.
 

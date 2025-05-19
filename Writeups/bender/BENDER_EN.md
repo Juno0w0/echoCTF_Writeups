@@ -1,5 +1,5 @@
 
-![Bender Screenshot 1](bender1.png)
+![Bender Screenshot 1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/bender/bender1.png)
 
 ## Introduction
 
@@ -18,13 +18,13 @@ We began the reconnaissance phase of the Bender machine by performing a port sca
 
 Port 1337 was found to be filtered, indicating that the server was not responding to a typical scan. When attempting an HTTP connection to IP `10.0.41.1` on port `1337`, we received the following web page:
 
-![Bender Screenshot 2](bender2.png)
+![bender2](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/bender/bender2.png)
 
 # Fuzzing with dirsearch
 
 After that, we performed fuzzing with `dirsearch` to identify additional paths and directories on the page. The output indicated that the `/nogooglebot/` directory was disallowed for search engines, suggesting that there might be hidden or sensitive content in that location.
 
-![Bender Screenshot 3](bender3.png)
+![bender3](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/bender/bender3.png)
 
 We observed that the only directory with a 200 (OK) response code was `/robots.txt`. Upon reviewing its content, we found the following:
 
@@ -40,7 +40,7 @@ This gave us the first flag. Moreover, the file revealed that the `/nogooglebot/
 
 When accessing the `/nogooglebot/` directory, we found another section of the website displaying the message: `"Look Closer"`.
 
-![Bender Screenshot 4](bender4.png)
+![Bender Screenshot 4](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/bender/bender4.png)
 
 Inspecting the page's source code, specifically the section with the "Look Closer" message, we found the second flag:
 

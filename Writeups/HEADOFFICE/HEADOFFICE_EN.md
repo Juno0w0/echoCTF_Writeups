@@ -1,4 +1,4 @@
-![head1](head1.png)
+![head1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/HEADOFFICE/head1.png)
 ## INTRODUCTION
 
 The machine **HEADOFFICE** from **echoCTF** provides the following hint:  
@@ -23,9 +23,9 @@ PORT     STATE    SERVICE REASON
 1337/tcp filtered waste   no-response
 ```
 
-Port **1337** is filtered, indicating that the server did not respond to a common scan. When attempting an HTTP connection to IP `10.0.41.4` on port `1337`, we are shown the following webpage:
+Port **1337** is filtered, indicating that the server did not respond to a common scan. When attempting an HTT!P connection to IP `10.0.41.4` on port `1337`, we are shown the following webpage:
 
-![head2](head2.png)
+![head2](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/HEADOFFICE/head2.png)
 
 This page gives us a hint to explore the **HTTP HEADERS**. To view the headers of a web page, we can use the following command:
 
@@ -35,7 +35,7 @@ curl -I 10.0.41.4:1337
 
 This command returns the following information, where we find our **flag**:
 
-```
+``` HTTP
 HTTP/1.1 200 OK
 Server: nginx/1.18.0
 Date: Mon, 21 Apr 2025 05:51:08 GMT

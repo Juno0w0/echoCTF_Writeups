@@ -1,4 +1,4 @@
-![](host1.png)
+![img1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/HOSTEL/host1.png)
 ## **INTRODUCION**
 
 La máquina **HOSTEL** de **EchoCTF** presenta un reto web donde se oculta un servicio y una bandera que pueden ser obtenidos mediante la modificación del [[HOST]] en una solicitud HTTP. La pista proporcionada por la máquina sugiere que la clave está en un [[HOST]] llamado `"el"`.
@@ -20,7 +20,7 @@ PORT     STATE SERVICE
 ```
 El puerto **1337** se encuentra abierto. Al intentar una conexión HTTP a la IP `10.0.41.5` en dicho puerto, se nos presenta la siguiente pagina.
 
-![hostel2](host2.png)
+![hostel2](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/HOSTEL/host2.png)
 
  Basándonos en la pista proporcionada por la máquina y la pagina, se intuye que la bandera está oculta detrás de un **[[HOST]] virtual** con el nombre `"el"`
 

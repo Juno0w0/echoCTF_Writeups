@@ -1,4 +1,4 @@
-![bender1](bender1.png)
+![bender1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/bender/bender1.png)
 ## Introducción
 
 La maquina Bender de EchoCTF oculta dos banderas en su pagina web. A través de la exploración del archivo [[robots.txt]] encontramos las rutas que nos que nos dirigen a las banderas 
@@ -15,12 +15,12 @@ RESPUESTA:
 
 El puerto 1337 se encuentra filtrado, lo que indica que el servidor no estaba respondiendo a un escaneo común, al intentar una conexión HTTP a la ip  "10.0.41.1" con el puerto "1337" nos da la siguiente pagina web:
 
-![bender2](bender2.png)
+![bender2](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/bender/bender2.png)
 
 #### Fuzzing con dirsearch 
 Después de eso realizamos fuzzing con **dirsearch** para identificar rutas y directorios adicionales en la pagina este archivo nos indicaba que el directorio /nogooglebot/ estaba desahabilitado para los motores de búsqueda, lo que sugiere que puede haber contenido oculto o sensible en ese directorio.
 
-![bender3](bender3.png)
+![bender3](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/bender/bender3.png)
 
 podemos ver como el único directorio con código 200 (OK) es el /[[Robots.txt]], al revisar el contenido de [[Robots.txt]] encontramos lo siguiente
 
@@ -32,7 +32,7 @@ Tenemos la primer bandera  y ademas este archivo nos indicaba que el directorio 
 #### Acceso a **/nogooglebot/** 
 Al ingresar al directorio __/nogooglebot/__ encontramos otra seccion de la pagina web que nos mostraba un mensaje **"Look Closer"** 
 
-![bender4](bender4.png)
+![Bender Screenshot 4](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/bender/bender4.png)
 
 al inspeccionar el codigo fuente de la pagina justo en la seccion del mensaje **"Look Closer"** encontramos la segunda bandera 
 
