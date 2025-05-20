@@ -1,6 +1,7 @@
 # **IDIOTR**
 
-![idiotr1][idiotr1.png]
+
+![idiotr1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/IDIOTR/idiotr1.png)
 ## **Introducción**
 
 La máquina **IDIOTR** de **EchoCTF** presenta un reto web que oculta una única bandera, la cual se puede obtener al explotar una vulnerabilidad del tipo **IDOR** (*Insecure Direct Object References* o Referencias Inseguras a Objetos Directos). Esta clase de vulnerabilidad permite acceder a recursos que normalmente deberían estar restringidos, simplemente manipulando parámetros en la URL.
@@ -25,7 +26,7 @@ PORT     STATE SERVICE REASON
 
 El puerto **1337** se encuentra abierto. Al realizar una conexión HTTP a la IP `10.0.41.2` en dicho puerto, se carga una página web con una interfaz básica, donde encontramos un menú con diferentes secciones: *Home*, *About*, *Blogs* y *Secret*.
 
-![iditr2][idiotr2.png]
+![iditr2](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/IDIOTR/idiotr2.png)
 
 ---
 
@@ -71,8 +72,8 @@ curl http://10.0.41.2:1337/?id=1 | grep "ETSCTF"
 ```
 
 **Respuesta:**
-```
-<p>Now You know why its called Insecure Direct Object Reference ETSCTF_764762092a32a29c2694d8c67209e5ce</p>
+```SHELL 
+<p>Now You know why its called Insecure Direct Object Reference ETSCTF_DDDDDDDDDDDDDDDDDDDDDD</p>
 ```
 
 Con esto confirmamos que el parámetro `id` no está validado adecuadamente, y se puede manipular directamente para acceder a información sensible.

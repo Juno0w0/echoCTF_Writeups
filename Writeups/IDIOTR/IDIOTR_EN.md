@@ -1,6 +1,6 @@
 # **IDIOTR**
 
-![idiotr1][idiotr1.png]
+![idiotr1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/IDIOTR/idiotr1.png)
 
 ## **Introduction**
 
@@ -26,7 +26,7 @@ PORT     STATE SERVICE REASON
 
 Port **1337** is open. When connecting to IP `10.0.41.2` on that port via HTTP, we get a simple webpage with a navigation menu containing sections like *Home*, *About*, *Blogs*, and *Secret*.
 
-![iditr2][idiotr2.png]
+![iditr2](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/IDIOTR/idiotr2.png)
 
 ---
 
@@ -72,8 +72,8 @@ curl http://10.0.41.2:1337/?id=1 | grep "ETSCTF"
 ```
 
 **Response:**
-```
-<p>Now You know why its called Insecure Direct Object Reference ETSCTF_764762092a32a29c2694d8c67209e5ce</p>
+``` shell 
+<p>Now You know why its called Insecure Direct Object Reference ETSCTF_:DDDDDDDDDDDDDDDDDDDDDD</p>
 ```
 
 This confirms the `id` parameter is not properly validated and allows access to sensitive data.
