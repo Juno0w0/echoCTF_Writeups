@@ -1,5 +1,5 @@
 
-![jason1](jason1.png)
+![jason1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/argonauts/jason1.png)
 # Argonauts - CTF Writeup
 
 **IP:** http://10.0.41.12:1337
@@ -22,7 +22,7 @@ The **Argonauts** machine from **EchoCTF** presents a challenge based on explori
 
 Accessing `http://10.0.41.12:1337` shows documentation indicating:
 
-![jason2](jason2.png)
+![jason2](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/argonauts/jason2.png)
 
 - Initial endpoint: `/DMV`
 - Hidden endpoint for the flag: `/??????`

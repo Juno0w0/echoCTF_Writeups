@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writeups/argonauts/Argonauts_ES.md",
+                "file": "Writeups/argonauts/Argonauts_EN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Argonauts_ES"
+              "title": "Argonauts_EN"
             }
           }
         ]
@@ -165,10 +165,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ca2469f558cc713",
+  "active": "6363c054280d57cd",
   "lastOpenFiles": [
-    "Writeups/argonauts/Argonauts_EN.md",
     "Writeups/argonauts/Argonauts_ES.md",
+    "Writeups/argonauts/Argonauts_EN.md",
     "Writeups/argonauts/Unconfirmed 519558.crdownload",
     "Writeups/IDIOTR/IDIOTR_ES.md",
     "Writeups/argonauts/Unconfirmed 812085.crdownload",
