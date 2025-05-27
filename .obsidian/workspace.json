@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writeups/argonauts/Argonauts_EN.md",
+                "file": "Ciber Security/SQL Y SQL INYECTION.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Argonauts_EN"
+              "title": "SQL Y SQL INYECTION"
             }
           }
         ]
@@ -167,13 +167,18 @@
   },
   "active": "6363c054280d57cd",
   "lastOpenFiles": [
-    "Writeups/argonauts/Argonauts_ES.md",
+    "Ciber Security/Robots.txt.md",
+    "Writeups/bender/bender1.png",
+    "Writeups/bender/BENDER_ES.md",
+    "Ciber Security/SQL Y SQL INYECTION.md",
+    "Writeups/squireli/squireli.md",
+    "Ciber Security/Untitled",
     "Writeups/argonauts/Argonauts_EN.md",
+    "Writeups/argonauts/Argonauts_ES.md",
     "Writeups/argonauts/Unconfirmed 519558.crdownload",
     "Writeups/IDIOTR/IDIOTR_ES.md",
     "Writeups/argonauts/Unconfirmed 812085.crdownload",
     "Writeups/argonauts/jason2.png",
-    "Writeups/bender/BENDER_ES.md",
     "Writeups/bender/BENDER_EN.md",
     "Writeups/argonauts/jason1.png",
     "Writeups/argonauts",
@@ -181,7 +186,6 @@
     "Ciber Security/HTTP HEADERS.md",
     "Ciber Security/HOST.md",
     "Ciber Security/IDOR.md",
-    "Ciber Security/Robots.txt.md",
     "Writeups/HEADOFFICE/HEADOFFICE_EN.md",
     "Writeups/HEADOFFICE/head2.png",
     "Writeups/IDIOTR/IDIOTR_EN.md",
