@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writeups/GETIP/GETIP_EN.md",
+                "file": "Writeups/POSTOFFICE/POSTOFFICE_ES.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GETIP_EN"
+              "title": "POSTOFFICE_ES"
             }
           }
         ]
@@ -167,8 +167,13 @@
   },
   "active": "6363c054280d57cd",
   "lastOpenFiles": [
-    "Writeups/GETIP/GETIP_ES.md",
+    "Writeups/squireli/squireli_en.md",
+    "Writeups/POSTOFFICE/POSTOFFICE_ES.md",
+    "Writeups/squireli/squireli_ES.md",
+    "Writeups/POSTOFFICE/post1.png",
     "Writeups/GETIP/GETIP_EN.md",
+    "Writeups/POSTOFFICE",
+    "Writeups/GETIP/GETIP_ES.md",
     "Writeups/GETIP/Unconfirmed 147529.crdownload",
     "Writeups/GETIP/getip4.png",
     "Writeups/GETIP/getip3.png",
@@ -182,7 +187,6 @@
     "Writeups/argonauts/jason1.png",
     "Writeups/argonauts/Argonauts_ES.md",
     "Writeups/argonauts/Argonauts_EN.md",
-    "Writeups/squireli/squireli_ES.md",
     "Writeups/IDIOTR/IDIOTR_EN.md",
     "Writeups/HOSTEL/HOSTEL_ES.md",
     "Writeups/HOSTEL/HOSTEL_EN.md",
@@ -191,7 +195,6 @@
     "Writeups/HEADOFFICE/head1.png",
     "Writeups/bender/BENDER_ES.md",
     "Writeups/bender/BENDER_EN.md",
-    "Writeups/squireli/squireli_en.md",
     "Writeups/squireli/Unconfirmed 64854.crdownload",
     "Ciber Security/Robots.txt.md",
     "Ciber Security/SQL Y SQL INYECTION.md",
@@ -204,8 +207,6 @@
     "Ciber Security/HTTP HEADERS.md",
     "Ciber Security/HOST.md",
     "Ciber Security/IDOR.md",
-    "Writeups/HEADOFFICE/head2.png",
-    "Writeups/idiotr/IDIOTR.md",
-    "Writeups/IDIOTR"
+    "Writeups/idiotr/IDIOTR.md"
   ]
 }
