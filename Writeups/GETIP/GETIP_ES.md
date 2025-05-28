@@ -1,4 +1,4 @@
-![getip](GETIP.png)
+![getip](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/GETIP/GETIP.png)
 # GETIP - CTF Writeup
 
 ---
@@ -74,16 +74,16 @@ ETSCTF_SheesStealer_was_here%
 
 1. Ingresamos a la URL `http://10.0.41.6:1337/` en el navegador y observamos el mensaje de bloqueo. 
 
-![getip2](getip2.png)
+![getip2](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/GETIP/getip2.png)
 
 2. Abrimos la extensión **ModHeader** (disponible para Chrome y Firefox).
 
-![getip3](getip3.png)
+![getip3](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/GETIP/getip3.png)
 
 3. Añadimos una nueva cabecera con:
    - Nombre: `X-Forwarded-For`
    - Valor: `127.0.0.1`
-![getip4](getip4.png)
+![getip4](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/GETIP/getip4.png)
 
 3. Recargamos la página o navegamos nuevamente a la URL.
 4. La respuesta ahora nos mostrará la bandera correctamente.

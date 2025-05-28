@@ -1,5 +1,5 @@
 
-![getip](GETIP.png)
+![getip](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/GETIP/GETIP.png)
 # GETIP - CTF Writeup
 
 ---
@@ -74,18 +74,17 @@ ETSCTF_SheesStealer_was_here%
 ### Graphical Method (using browser and extensions)
 
 1. We enter the URL `http://10.0.41.6:1337/` in the browser and see the blocking message.
-
-![getip2](getip2.png)
+![getip2](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/GETIP/getip2.png)
 
 2. We open the **ModHeader** extension (available for Chrome and Firefox).
 
-![getip3](getip3.png)
+![getip3](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/GETIP/getip3.png)
 
 3. We add a new header with:
    - Name: `X-Forwarded-For`
    - Value: `127.0.0.1`
 
-![getip4](getip4.png)
+![getip4](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/GETIP/getip4.png)
 
 4. We reload the page or navigate again to the URL.  
 5. The response now shows the flag correctly.
