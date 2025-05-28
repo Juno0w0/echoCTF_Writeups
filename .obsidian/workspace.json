@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writeups/POSTOFFICE/POSTOFFICE_ES.md",
+                "file": "Writeups/POSTOFFICE/POSTOFFICE_EN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "POSTOFFICE_ES"
+              "title": "POSTOFFICE_EN"
             }
           }
         ]
@@ -167,8 +167,10 @@
   },
   "active": "6363c054280d57cd",
   "lastOpenFiles": [
-    "Writeups/squireli/squireli_en.md",
     "Writeups/POSTOFFICE/POSTOFFICE_ES.md",
+    "Writeups/POSTOFFICE/POSTOFFICE_EN.md",
+    "Writeups/POSTOFFICE/Unconfirmed 722177.crdownload",
+    "Writeups/squireli/squireli_en.md",
     "Writeups/squireli/squireli_ES.md",
     "Writeups/POSTOFFICE/post1.png",
     "Writeups/GETIP/GETIP_EN.md",
@@ -203,7 +205,6 @@
     "Writeups/argonauts/Unconfirmed 519558.crdownload",
     "Writeups/argonauts/Unconfirmed 812085.crdownload",
     "Writeups/argonauts",
-    "Writeups/AA",
     "Ciber Security/HTTP HEADERS.md",
     "Ciber Security/HOST.md",
     "Ciber Security/IDOR.md",

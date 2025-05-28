@@ -1,7 +1,7 @@
 
 # POSTOFFICE - CTF WRITEUP
 
-![post1](post1.png)
+![post1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/POSTOFFICE/post1.png)
 ## Introducción
 
 La máquina **POSTOFFICE** de **EchoCTF** presenta un reto enfocado en la manipulación del método HTTP **POST**. La pista nos indica que, aunque el método **GET** es comúnmente utilizado para obtener recursos, en este reto debemos explorar el método contrario para descubrir la bandera oculta.
