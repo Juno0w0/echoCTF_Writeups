@@ -45,7 +45,7 @@ When accessing the `/nogooglebot/` directory, we found another section of the we
 Inspecting the page's source code, specifically the section with the "Look Closer" message, we found the second flag:
 
 
-	<!-- ETSCTF_e79422930da899e5634d7f9da9c601a2 -->
+	<!-- ETSCTF_NOT_YET_BRO_0-0 -->
 
 
 ## Vulnerability Identification

@@ -187,7 +187,7 @@ Extrae 30 caracteres desde la posición 20.
 Concatenando fragmentos obtenemos:
 
 ```
-ETSCTF_4b7e39ac882eade2b9ceed5680f0717e
+ETSCTF_nOOoOOOOoooooLaPolitziaaaaa
 ```
 
 ---
@@ -214,13 +214,13 @@ Resultado:
 ```
 |   id |name                 |  rate |
 |    1 |                     |     3 |
-|    1 |89657e009445fea8ebc  |     3 |
+|    1 |XXXXXXXXXXXXXXXXXXX  |     3 |
 ```
 
 Concatenamos:
 
 ```
-ETSCTF_1b294abeee15089657e009445fea8ebc
+ETSCTF_nOOoOOOOoooooLaPolitziaaaaa
 ```
 
 ---

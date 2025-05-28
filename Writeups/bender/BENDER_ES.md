@@ -36,7 +36,7 @@ Al ingresar al directorio __/nogooglebot/__ encontramos otra seccion de la pagin
 
 al inspeccionar el codigo fuente de la pagina justo en la seccion del mensaje **"Look Closer"** encontramos la segunda bandera 
 
-	<!-- ETSCTF_e79422930da899e5634d7f9da9c601a2 -->
+	<!-- ETSCTF_not_yet_bro_0-0 -->
 
 ## Identificación de vulnerabilidades
 
