@@ -1,4 +1,4 @@
-![jason1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/argonauts/jason1.png)
+![jason1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/ARGONAUTS/jason1.png)
 # Argonauts - CTF Writeup
 
 **IP:** http://10.0.41.12:1337
@@ -22,7 +22,7 @@ La máquina **Argonauts** de **EchoCTF** presenta un reto basado en la exploraci
 Al acceder a `http://10.0.41.12:1337` se observa documentación indicando:
 
 
-![jason2](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/argonauts/jason2.png)
+![jason2](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/ARGONAUTS/jason2.png)
 
 - Endpoint inicial: `/DMV`
 - Endpoint oculto para la bandera: `/??????`
