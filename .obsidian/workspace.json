@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writeups/ADMINLOST/ADMINLOST.md",
+                "file": "Writeups/ADMINLOST/ADMINLOST_EN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ADMINLOST"
+              "title": "ADMINLOST_EN"
             }
           }
         ],
@@ -182,8 +182,10 @@
   },
   "active": "ebc2a684e6d9dc81",
   "lastOpenFiles": [
-    "Writeups/bender/BENDER_ES.md",
     "Writeups/ADMINLOST/ADMINLOST.md",
+    "Writeups/ADMINLOST/ADMINLOST_EN.md",
+    "Writeups/ADMINLOST/Unconfirmed 259188.crdownload",
+    "Writeups/bender/BENDER_ES.md",
     "Writeups/ADMINLOST/admin6.png",
     "Writeups/ADMINLOST/admin5.png",
     "Writeups/ADMINLOST/admin4.png",
@@ -225,7 +227,6 @@
     "Writeups/HEADOFFICE/HEADOFFICE_ES.md",
     "Writeups/HEADOFFICE/HEADOFFICE_EN.md",
     "Writeups/bender/BENDER_EN.md",
-    "Writeups/squireli/Unconfirmed 64854.crdownload",
-    "Ciber Security/Untitled"
+    "Writeups/squireli/Unconfirmed 64854.crdownload"
   ]
 }
