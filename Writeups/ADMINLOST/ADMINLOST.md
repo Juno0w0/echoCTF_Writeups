@@ -1,4 +1,4 @@
-![admin1](admin.png)
+![admin1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/ADMINLOST/admin.png)
 # Introduccion 
 
 La máquina **ADMILOST** presenta un escenario de escalación de privilegios basado en una aplicación web llamada **ADMIDIO**, que está expuesta en el puerto HTTP y vulnerable a Remote Code Execution (RCE) mediante la carga de archivos `.phar`. Posteriormente, la escalación a root se logra gracias a un binario sudo configurado para ser ejecutado sin 
@@ -64,7 +64,7 @@ sudo nano /etc/hosts
 
 Ahora que el dns se encuentra en nuestros hosts locales prodemos proceder a recargar la pagina la cual nos muestra la siguiente pagina 
 
-![admin1](admin1.PNG)
+![admin1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/ADMINLOST/ADMIN1.png)
 
 Notamos que tiene diferentes acciones pero todas estan limitadas asi que probamos ingresar al login para ver si podemos acceder como administrador y obtener funciones adicionales
 
@@ -75,7 +75,7 @@ Notamos que tiene diferentes acciones pero todas estan limitadas asi que probamo
 
 Tras iniciar sesión, verificamos la versión exacta de ADMIDIO utilizada, lo cual es crucial para identificar posibles vulnerabilidades públicas.
 
-![admin](admin4.png)
+![admin](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/ADMINLOST/admin4.png)
 
 ___
 # Identificacion de vulnerabilidades
@@ -152,17 +152,17 @@ SIguiendo el ejemplo anterior se sube un archivo .php con la siguiente shell den
 <?php system($_GET['cmd']); ?>
 ```
 
-![admin](admin5.png)
+![admin](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/ADMINLOST/admin5.png)
 
-![admin](admin6.png)
+![admin](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/ADMINLOST/admin6.png)
 
 Aqui despues de subir la imagen la mandamos al servidor para que nos proporcione su URL con su ID del archivo
 
-![admin](admin7.png)
+![admin](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/ADMINLOST/admin7.png)
 
 En este punto es importante copiar el endpoint que hace referencia a nuestro archivo y ponerlo en la siguiente url
 
-![admin](admin8.png)
+![admin](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/ADMINLOST/admin8.png)
 
 ```c
 http://admilost.echocity-f.com/adm_my_files/announcements/images/20250531-061003_9rqlec91aaryzd6y.php
