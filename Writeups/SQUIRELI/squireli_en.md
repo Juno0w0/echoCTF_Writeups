@@ -258,3 +258,7 @@ Recommended to prevent this injection:
 3. Least privilege principle for database users.
 4. Use ORMs or frameworks that abstract database access.
 5. Monitor and alert on suspicious inputs.
+
+```c
+Writeup Made With ❤️ By SheepsStealer
+```

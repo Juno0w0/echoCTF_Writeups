@@ -13,5 +13,5 @@ sudo cat /bin/bash
 
 ```
 
-[[Robots.txt]]
+[[ROBOTS.TXT]]
 

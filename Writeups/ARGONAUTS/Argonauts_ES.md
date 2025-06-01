@@ -176,4 +176,6 @@ Este reto ejemplifica cómo un json-server sin medidas de seguridad puede expone
 
 ---
 
-**-Writeup by SheepsStealer-**
+```c
+Writeup Made With ❤️ By SheepsStealer
+```

@@ -37,8 +37,8 @@ Luego hacemos un escaneo con `nmap` para verificar los servicios que corren en e
 nmap -sSC -vv --min-rate -p 22,80 10.0.160.243 
 
 PORT    STATE  SERVICE  REASON
-22/tcp  closed ssh      reset ttl 64
-80/tcp  closed http     reset ttl 64
+22/tcp  open ssh      reset ttl 64
+80/tcp  open http     reset ttl 64
 ```
 Observamos que el puerto 80 corre un servicio HTTP por lo cual podemos conectarnos mediante un URL en un navegador web
 
@@ -325,4 +325,6 @@ ___
     
 - Implementar monitoreo y alertas para accesos sospechosos o ejecución de comandos inusuales en servidores críticos.
 
-~~~~ Writeup by sheeps stealer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```c
+Writeup Made With ❤️ By SheepsStealer
+```

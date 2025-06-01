@@ -46,6 +46,44 @@ Ya vimos que una API RESTful es un diseño de API que permite interactuar con re
 
 ![API3](https://imgs.search.brave.com/UPMQt4h6yS8TNiAVD4Aj9aippY8kA5sTZ2oJy0cOY10/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWRzLnNpdGVwb2lu/dC5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjIvMDgvMTY2/MTc0OTEyNVJFU1Qt/QVBJLVJlcXVlc3Qu/cG5n)
 
+### 📌 ¿RESTful es lo mismo que REST?
+
+- **REST** es la teoría (el conjunto de principios).
+    
+- Una **API RESTful** es una implementación práctica que respeta esos principios.
+
+
 ## JSON SERVER
 ___
+**JSON** (JavaScript Object Notation) es un **formato de texto ligero** para **almacenar y transportar datos**. Es muy utilizado en aplicaciones web para intercambiar información entre el **cliente (como una app o navegador)** y el **servidor**.
 
+Una **API RESTful** define **cómo se comunican** el cliente y el servidor (usando HTTP y ciertas reglas), **pero no obliga** a usar un formato específico para enviar o recibir datos. Sin embargo, **en la práctica**, el formato más común y estándar que se utiliza es **JSON**.
+
+###  ¿Cómo luce JSON?
+
+Es muy parecido a un diccionario o un objeto en muchos lenguajes de programación:
+
+```json
+{   "nombre": "Ana",   "edad": 28,   "correo": "ana@mail.com",   "intereses": ["lectura", "viajes", "programación"],   "activo": true }
+```
+
+### Qué lo hace especial?
+
+1. ✅ **Legible para humanos**.
+    
+2. ✅ **Fácil de procesar** por máquinas.
+    
+3. ✅ **Compatible con casi todos los lenguajes** (JavaScript, Python, Java, Kotlin, etc.).
+    
+4. ✅ **Ligero y eficiente**, ideal para comunicación entre sistemas (como en una API RESTful).
+
+### Elementos básicos de JSON:
+
+|Elemento|Ejemplo|
+|---|---|
+|**Objeto**|`{ "clave": "valor" }`|
+|**Arreglo**|`[ "uno", "dos", "tres" ]`|
+|**Texto**|`"Hola mundo"`|
+|**Número**|`42`, `3.14`|
+|**Booleano**|`true`, `false`|
+|**Nulo (null)**|`null`|

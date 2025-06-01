@@ -1,7 +1,7 @@
 ![bender1](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/bender/bender1.png)
 ## Introducción
 
-La maquina Bender de EchoCTF oculta dos banderas en su pagina web. A través de la exploración del archivo [[robots.txt]] encontramos las rutas que nos que nos dirigen a las banderas 
+La maquina Bender de EchoCTF oculta dos banderas en su pagina web. A través de la exploración del archivo [[ROBOTS.TXT]] encontramos las rutas que nos que nos dirigen a las banderas 
 IP: 10.0.41.1
 ## Reconocimiento y Escaneo 
 
@@ -22,7 +22,7 @@ Después de eso realizamos fuzzing con **dirsearch** para identificar rutas y di
 
 ![bender3](https://raw.githubusercontent.com/Juno0w0/echoCTF_Writeups/refs/heads/main/Writeups/bender/bender3.png)
 
-podemos ver como el único directorio con código 200 (OK) es el /[[Robots.txt]], al revisar el contenido de [[Robots.txt]] encontramos lo siguiente
+podemos ver como el único directorio con código 200 (OK) es el /[[ROBOTS.TXT]], al revisar el contenido de [[ROBOTS.TXT]] encontramos lo siguiente
 
 	 well done ETSCTF_ae1764e05e046f3770ac7b396c4ab0a2
 	User-agent: Googlebot
@@ -40,10 +40,12 @@ al inspeccionar el codigo fuente de la pagina justo en la seccion del mensaje **
 
 ## Identificación de vulnerabilidades
 
-El archivo [[Robots.txt]] no es un mecanismo de seguridad, pero en este caso, **reveló información crítica** sobre un directorio que no debía ser indexado por los motores de búsqueda. Aunque no es una vulnerabilidad grave por sí misma, es una mala práctica dejar información sensible accesible de esta forma.
+El archivo [[ROBOTS.TXT]] no es un mecanismo de seguridad, pero en este caso, **reveló información crítica** sobre un directorio que no debía ser indexado por los motores de búsqueda. Aunque no es una vulnerabilidad grave por sí misma, es una mala práctica dejar información sensible accesible de esta forma.
 
 ## Medidas de mitigacion 
 
 **Validación de directorios**: Asegurarse de que los directorios sensibles no sean accesibles, ya sea mediante configuraciones de seguridad adicionales o mediante el uso de herramientas como **.htaccess** en servidores web.
 
--Writeup by JunoGG-
+```c
+Writeup Made With ❤️ By SheepsStealer
+```

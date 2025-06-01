@@ -60,3 +60,7 @@ Proper configuration of HTTP headers is essential, as sensitive information is d
 - The web server technology in use
 - Lack of protections against **clickjacking**
 - No explicit protections against **XSS** and other web-based attacks
+
+```c
+Writeup Made With ❤️ By SheepsStealer
+```

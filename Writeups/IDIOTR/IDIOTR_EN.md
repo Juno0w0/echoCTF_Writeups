@@ -99,3 +99,7 @@ To prevent IDOR vulnerabilities, the following best practices should be applied:
 - **Unpredictable identifiers:** Avoid sequential IDs. Use UUIDs or other non-guessable schemes.
 
 - **Logging and alerts:** Monitor access to sensitive parameters and alert on suspicious access patterns, such as probing multiple IDs.
+
+```c
+Writeup Made With ❤️ By SheepsStealer
+```

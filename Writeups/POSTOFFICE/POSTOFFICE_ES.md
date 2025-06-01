@@ -74,3 +74,7 @@ ETSCTF: ETSCTF_4928fe50c7d8d80eba74e908dd1594de
 - Validar y sanitizar entradas recibidas vía POST.
 - Limitar métodos HTTP permitidos por endpoint según función.
 - Monitorizar accesos y uso anómalo de endpoints con métodos POST.
+
+```c
+Writeup Made With ❤️ By SheepsStealer
+```

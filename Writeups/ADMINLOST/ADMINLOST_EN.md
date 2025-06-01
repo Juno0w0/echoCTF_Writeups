@@ -39,8 +39,8 @@ Then we do a scan with `nmap` to verify the services running on those ports.
 nmap -sSC -vv --min-rate -p 22,80 10.0.160.243 
 
 PORT    STATE  SERVICE  REASON
-22/tcp  closed ssh      reset ttl 64
-80/tcp  closed http     reset ttl 64
+22/tcp  open ssh      reset ttl 64
+80/tcp  open http     reset ttl 64
 ```
 We notice that port 80 runs an HTTP service, so we can connect to it via a URL in a web browser.
 
@@ -329,4 +329,6 @@ ___
 - Change default credentials and apply strong password policies.
 - Implement monitoring and alerts for suspicious access or unusual command executions on critical servers.
 
-~~~~ Writeup by sheeps stealer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```c
+Writeup Made With ❤️ By SheepsStealer
+```

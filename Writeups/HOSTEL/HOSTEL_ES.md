@@ -55,3 +55,6 @@ Para prevenir este tipo de exposición:
 - Monitorear el tráfico en busca de patrones sospechosos que usen [[HOST]] headers no comunes.
 
 
+```c
+Writeup Made With ❤️ By SheepsStealer
+```

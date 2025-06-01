@@ -177,4 +177,6 @@ This challenge exemplifies how a json-server without security measures can easil
 
 ---
 
-**-Writeup by SheepsStealer-**
+```c
+Writeup Made With ❤️ By SheepsStealer
+```

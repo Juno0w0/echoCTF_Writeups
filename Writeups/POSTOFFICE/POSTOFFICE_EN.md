@@ -85,3 +85,7 @@ ETSCTF: ETSCTF_4928fe50c7d8d80eba74e908dd1594de
 - Monitor access and anomalous usage of endpoints with POST methods.
 
 ---
+
+```c
+Writeup Made With ❤️ By SheepsStealer
+```

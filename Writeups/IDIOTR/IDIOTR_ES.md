@@ -99,3 +99,7 @@ Para evitar vulnerabilidades del tipo IDOR, se deben seguir las siguientes buena
 - **Uso de identificadores no predecibles:** Evitar el uso de valores secuenciales (`id=1`, `id=2`, etc.). En su lugar, utilizar identificadores UUID u otras estrategias que dificulten el acceso arbitrario.
 
 - **Registros y alertas:** Monitorear el acceso a parámetros críticos y generar alertas ante comportamientos anómalos, como exploraciones de múltiples IDs.
+
+```c
+Writeup Made With ❤️ By SheepsStealer
+```

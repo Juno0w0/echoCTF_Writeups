@@ -52,3 +52,6 @@ Lo cual nos da la siguiente información, donde encontraremos nuestra bandera
 Correctas configuraciones ya que en laS [[HTTP HEADERS]] se encuentra información sensible como Tecnología del servidor web, Protección contra ataques de clickjacking y Protección contra XSS y otros ataques
 
 
+```c
+Writeup Made With ❤️ By SheepsStealer
+```

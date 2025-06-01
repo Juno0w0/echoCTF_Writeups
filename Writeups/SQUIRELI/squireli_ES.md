@@ -258,3 +258,6 @@ Para prevenir este tipo de inyección SQL, se recomienda:
 4. Uso de frameworks u ORMs que abstraen el acceso y previenen inyección.
 5. Monitoreo y alertas ante patrones sospechosos.
 
+```c
+Writeup Made With ❤️ By SheepsStealer
+```

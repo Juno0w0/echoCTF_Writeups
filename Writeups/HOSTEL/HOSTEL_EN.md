@@ -57,3 +57,7 @@ To prevent this type of exposure:
 - Configure strict rules on the web server to ignore requests with invalid hostnames.
 
 - Monitor traffic for suspicious patterns using uncommon host headers.
+
+```c
+Writeup Made With ❤️ By SheepsStealer
+```
